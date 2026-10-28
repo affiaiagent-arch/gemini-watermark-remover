@@ -1,0 +1,28 @@
+{
+  "name": "gemini-watermark-remover",
+  "version": "0.1.0",
+  "description": "Remove the visible Gemini watermark from images with reverse alpha blending. Runs locally, no upload.",
+  "main": "src/index.js",
+  "bin": {
+    "gemini-watermark-remove": "examples/remove.js"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "example": "node examples/remove.js"
+  },
+  "keywords": [
+    "gemini",
+    "watermark",
+    "watermark-remover",
+    "reverse-alpha-blending",
+    "image"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
